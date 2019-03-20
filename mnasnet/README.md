@@ -52,7 +52,7 @@ We trained mnasnet b1 on two NVIDIA Geforce RTX2080TIs and achieved the accuracy
 | ------------- | ------------- |
 | Content Cell | Content Cell |
 
- | Model | Input Size | Depth Multiplier | Top-1 Accuracy | Top-5 Accuracy | Pixel 1 latency (ms) | DownLoad Link 
- :-------|:---------_:|:----------------:|:--------------:|:--------------:|:--------------------:|:-------------:|
- mnasnet-b1|224x224|1.0|74.094|92.002|TBA|[mnasnet_b1_1.0_224.tar](https://drive.google.com/open?id=1A04CaDk6WhXCwZ1ivkLQxE1YhPV1WYcz)
+| Model | Input Size | Depth Multiplier | Top-1 Accuracy | Top-5 Accuracy | Pixel 1 latency (ms) | DownLoad Link |
+:-------|:---------_:|:----------------:|:--------------:|:--------------:|:--------------------:|:-------------:|
+mnasnet-b1|224x224|1.0|74.094|92.002|TBA|[mnasnet_b1_1.0_224.tar](https://drive.google.com/open?id=1A04CaDk6WhXCwZ1ivkLQxE1YhPV1WYcz)
 
