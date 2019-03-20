@@ -164,7 +164,7 @@ def se_block(input_tensor,
                                          kernel_size=[1,1],
                                          stride=1,
                                          padding='same',
-                                         normalizer_fn=None,
+                                         normalizer_fn=tf.nn.sigmoid,
                                          activation_fn=None,
                                          scope='excitation_expand')
          return excitation_expand
