@@ -160,14 +160,14 @@ def se_block(input_tensor,
                                          activation_fn=tf.nn.relu,
                                          scope='excitation_reduce')
          excitation_expand = slim.conv2d(inputs=excitation_reduce,
-                                         num_outputs=num_reduced_channel,
+                                         num_outputs=num_channel,
                                          kernel_size=[1,1],
                                          stride=1,
                                          padding='same',
-                                         normalizer_fn=tf.nn.sigmoid,
-                                         activation_fn=None,
+                                         normalizer_fn=None,
+                                         activation_fn=tf.nn.sigmoid,
                                          scope='excitation_expand')
-         return excitation_expand
+         return excitation_expand * input_tensor
 
 def sep_conv(input_tensor,
              num_outputs,
