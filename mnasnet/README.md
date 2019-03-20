@@ -48,6 +48,9 @@ After that, start training with the hyperparameters in the paper.
 We trained mnasnet b1 on two NVIDIA Geforce RTX2080TIs and achieved the accuracy given by the paper after training 4.2M steps.
 
 # Pretrained models
+| Header Cell | Header Cell |
+| ------------- | ------------- |
+| Content Cell | Content Cell |
 
  | Model | Input Size | Depth Multiplier | Top-1 Accuracy | Top-5 Accuracy | Pixel 1 latency (ms) | DownLoad Link 
  :-------|:---------_:|:----------------:|:--------------:|:--------------:|:--------------------:|:-------------:|
