@@ -44,7 +44,7 @@ SSD_FEATURE_EXTRACTOR_CLASS_MAP = {
 ### MSCOCO17 Model
 | Model | Input Size | Depth Multiplier | mAP(IOU 0.05:0.95) |  Pixel 1 latency (ms) | DownLoad Link |
 | :---- | ---------- | ---------------- | ------------------ | -------------- | -------------------- |
-| ssd-mnasnet-b1-fpn| 640*640 | 1.0 | 74.094 | 92.002 | TBA | TBA
+| ssd-mnasnet-b1-fpn| 640*640 | 1.0 | 33.7 | TBA | TBA
 
 ## System Requirement
 
