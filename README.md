@@ -10,7 +10,7 @@
   We tested the replacement of ResNet with MNASNet-b1 as the backbone of RetinaNet.Evaluation on the MSCOCO17 val after training on the MSCOCO17 train dataset.We have achieved a mAP of 33.7.We have achieved a mAP of 33.7, which is slightly better than using MobileNet V2 as the backbone(33.7 vs 33.4).All work on object detection uses the [object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection) of tensorflow.We just wrote a feature extractor and related configuration files.
 
 ## How To Use
- The basic implementation of Mnasnet is in the /mnasnet directory. If you want to use it, copy it to the /slim/nets directory, then add mnasnet to nets_factory.py.
+ The basic implementation of Mnasnet is in the /mnasnet directory. If you want to use it, copy it to the /slim/nets directory, then add mnasnet to [nets_factory.py](https://github.com/tensorflow/models/blob/r1.13.0/research/slim/nets/nets_factory.py).
  
 ```python
 networks_map = {
@@ -25,7 +25,7 @@ arg_scopes_map = {
                   'mnasnet_b1':mnasnet.training_scope,
                  }
 ```
- If you want to use mnasnet as the skeleton in the object detection API, we provide the implementation of retinanet.Copy the files in the /object_detection/models directory to the directory where the object detection api is located, then add the model to model_builder.py.The configuration file is provided in the /object_detection/samples/configs/ directory
+ If you want to use mnasnet as the skeleton in the [object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection), we provide the implementation of retinanet.Copy the files in the [/object_detection/models] directory to the directory where the object detection api is located, then add the model to [model_builder.py](https://github.com/tensorflow/models/blob/r1.13.0/research/object_detection/builders/model_builder.py).The configuration file is provided in the /object_detection/samples/configs/ directory
  
 ```python
 SSD_FEATURE_EXTRACTOR_CLASS_MAP = {
@@ -52,7 +52,7 @@ SSD_FEATURE_EXTRACTOR_CLASS_MAP = {
  We only tested under Tensorflow 1.12, all the code works fine.
 
 ## TODO List
-
+ 
 -[] Upload the code for object detection (some minor modifications are required)
 -[] Freeze the object detection model and upload it (already completed training)
 -[] Training the MNASNet A1 model (in progress, estimated to take 60 days)
