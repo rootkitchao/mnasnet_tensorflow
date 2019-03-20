@@ -53,12 +53,12 @@ SSD_FEATURE_EXTRACTOR_CLASS_MAP = {
 
 ## TODO List
  
-  -[] Upload the code for object detection (some minor modifications are required)
-  -[] Freeze the object detection model and upload it (already completed training)
-  -[] Training the MNASNet A1 model (in progress, estimated to take 60 days)
-  -[] Evaluation on mobile devices (I am sorry that I don't have a Google Pixel 1 phone, I might buy a newer phone for evaluation)
-  -[] Provide more pre-trained models (our limited computing power)
-  -[] Send PR to tensorflow
+  * [ ] Upload the code for object detection (some minor modifications are required)
+  * [ ] Freeze the object detection model and upload it (already completed training)
+  * [ ] Training the MNASNet A1 model (in progress, estimated to take 60 days)
+  * [ ] Evaluation on mobile devices (I am sorry that I don't have a Google Pixel 1 phone, I might buy a newer phone for evaluation)
+  * [ ] Provide more pre-trained models (our limited computing power)
+  * [ ] Send PR to tensorflow
 
 ## License
  
